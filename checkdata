@@ -1,0 +1,242 @@
+df_new2018 = df_new.loc[(df_new['Job Created'] <= "2019-01-01 00:00:00.000000") & (df_new['Job Created'] >= "2018-01-01 00:00:00.000000")]
+
+df_new2018_1 = df_new.loc[(df_new['Job Created'] <= "2018-02-01 00:00:00.000000") & (df_new['Job Created'] >= "2018-01-01 00:00:00.000000")]
+df_new2018_2 = df_new.loc[(df_new['Job Created'] <= "2018-03-01 00:00:00.000000") & (df_new['Job Created'] >= "2018-02-01 00:00:00.000000")]
+df_new2018_3 = df_new.loc[(df_new['Job Created'] <= "2018-04-01 00:00:00.000000") & (df_new['Job Created'] >= "2018-03-01 00:00:00.000000")]
+df_new2018_4 = df_new.loc[(df_new['Job Created'] <= "2018-05-01 00:00:00.000000") & (df_new['Job Created'] >= "2018-04-01 00:00:00.000000")]
+df_new2018_5 = df_new.loc[(df_new['Job Created'] <= "2018-06-01 00:00:00.000000") & (df_new['Job Created'] >= "2018-05-01 00:00:00.000000")]
+df_new2018_6 = df_new.loc[(df_new['Job Created'] <= "2018-07-01 00:00:00.000000") & (df_new['Job Created'] >= "2018-06-01 00:00:00.000000")]
+df_new2018_7 = df_new.loc[(df_new['Job Created'] <= "2018-08-01 00:00:00.000000") & (df_new['Job Created'] >= "2018-07-01 00:00:00.000000")]
+df_new2018_8 = df_new.loc[(df_new['Job Created'] <= "2018-09-01 00:00:00.000000") & (df_new['Job Created'] >= "2018-08-01 00:00:00.000000")]
+df_new2018_9 = df_new.loc[(df_new['Job Created'] <= "2018-10-01 00:00:00.000000") & (df_new['Job Created'] >= "2018-09-01 00:00:00.000000")]
+df_new2018_10 = df_new.loc[(df_new['Job Created'] <= "2018-11-01 00:00:00.000000") & (df_new['Job Created'] >= "2018-10-01 00:00:00.000000")]
+df_new2018_11 = df_new.loc[(df_new['Job Created'] <= "2018-12-01 00:00:00.000000") & (df_new['Job Created'] >= "2018-11-01 00:00:00.000000")]
+df_new2018_12 = df_new.loc[(df_new['Job Created'] <= "2019-01-01 00:00:00.000000") & (df_new['Job Created'] >= "2018-12-01 00:00:00.000000")]
+
+df2018j = len(df_new2018_1)
+df2018f = len(df_new2018_2)
+df2018m = len(df_new2018_3)
+df2018a = len(df_new2018_4)
+df2018ma = len(df_new2018_5)
+df2018ju = len(df_new2018_6)
+df2018jy = len(df_new2018_7)
+df2018au = len(df_new2018_8)
+df2018s = len(df_new2018_9)
+df2018o = len(df_new2018_10)
+df2018n = len(df_new2018_11)
+df2018d = len(df_new2018_12)
+
+
+df_new2019 = df_new.loc[(df_new['Job Created'] <= "2020-01-01 00:00:00.000000") & (df_new['Job Created'] >= "2019-01-01 00:00:00.000000")]
+
+df_new2019_1 = df_new.loc[(df_new['Job Created'] <= "2019-02-01 00:00:00.000000") & (df_new['Job Created'] >= "2019-01-01 00:00:00.000000")]
+df_new2019_2 = df_new.loc[(df_new['Job Created'] <= "2019-03-01 00:00:00.000000") & (df_new['Job Created'] >= "2019-02-01 00:00:00.000000")]
+df_new2019_3 = df_new.loc[(df_new['Job Created'] <= "2019-04-01 00:00:00.000000") & (df_new['Job Created'] >= "2019-03-01 00:00:00.000000")]
+df_new2019_4 = df_new.loc[(df_new['Job Created'] <= "2019-05-01 00:00:00.000000") & (df_new['Job Created'] >= "2019-04-01 00:00:00.000000")]
+df_new2019_5 = df_new.loc[(df_new['Job Created'] <= "2019-06-01 00:00:00.000000") & (df_new['Job Created'] >= "2019-05-01 00:00:00.000000")]
+df_new2019_6 = df_new.loc[(df_new['Job Created'] <= "2019-07-01 00:00:00.000000") & (df_new['Job Created'] >= "2019-06-01 00:00:00.000000")]
+df_new2019_7 = df_new.loc[(df_new['Job Created'] <= "2019-08-01 00:00:00.000000") & (df_new['Job Created'] >= "2019-07-01 00:00:00.000000")]
+df_new2019_8 = df_new.loc[(df_new['Job Created'] <= "2019-09-01 00:00:00.000000") & (df_new['Job Created'] >= "2019-08-01 00:00:00.000000")]
+df_new2019_9 = df_new.loc[(df_new['Job Created'] <= "2019-10-01 00:00:00.000000") & (df_new['Job Created'] >= "2019-09-01 00:00:00.000000")]
+df_new2019_10 = df_new.loc[(df_new['Job Created'] <= "2019-11-01 00:00:00.000000") & (df_new['Job Created'] >= "2019-10-01 00:00:00.000000")]
+df_new2019_11 = df_new.loc[(df_new['Job Created'] <= "2019-12-01 00:00:00.000000") & (df_new['Job Created'] >= "2019-11-01 00:00:00.000000")]
+df_new2019_12 = df_new.loc[(df_new['Job Created'] <= "2020-01-01 00:00:00.000000") & (df_new['Job Created'] >= "2019-12-01 00:00:00.000000")]
+
+df2019j = len(df_new2019_1)
+df2019f = len(df_new2019_2)
+df2019m = len(df_new2019_3)
+df2019a = len(df_new2019_4)
+df2019ma = len(df_new2019_5)
+df2019ju = len(df_new2019_6)
+df2019jy = len(df_new2019_7)
+df2019au = len(df_new2019_8)
+df2019s = len(df_new2019_9)
+df2019o = len(df_new2019_10)
+df2019n = len(df_new2019_11)
+df2019d = len(df_new2019_12)
+
+
+df_new2020 = df_new.loc[(df_new['Job Created'] <= "2021-01-01 00:00:00.000000") & (df_new['Job Created'] >= "2020-01-01 00:00:00.000000")]
+
+df_new2020_1 = df_new.loc[(df_new['Job Created'] <= "2020-02-01 00:00:00.000000") & (df_new['Job Created'] >= "2020-01-01 00:00:00.000000")]
+df_new2020_2 = df_new.loc[(df_new['Job Created'] <= "2020-03-01 00:00:00.000000") & (df_new['Job Created'] >= "2020-02-01 00:00:00.000000")]
+df_new2020_3 = df_new.loc[(df_new['Job Created'] <= "2020-04-01 00:00:00.000000") & (df_new['Job Created'] >= "2020-03-01 00:00:00.000000")]
+df_new2020_4 = df_new.loc[(df_new['Job Created'] <= "2020-05-01 00:00:00.000000") & (df_new['Job Created'] >= "2020-04-01 00:00:00.000000")]
+df_new2020_5 = df_new.loc[(df_new['Job Created'] <= "2020-06-01 00:00:00.000000") & (df_new['Job Created'] >= "2020-05-01 00:00:00.000000")]
+df_new2020_6 = df_new.loc[(df_new['Job Created'] <= "2020-07-01 00:00:00.000000") & (df_new['Job Created'] >= "2020-06-01 00:00:00.000000")]
+df_new2020_7 = df_new.loc[(df_new['Job Created'] <= "2020-08-01 00:00:00.000000") & (df_new['Job Created'] >= "2020-07-01 00:00:00.000000")]
+df_new2020_8 = df_new.loc[(df_new['Job Created'] <= "2020-09-01 00:00:00.000000") & (df_new['Job Created'] >= "2020-08-01 00:00:00.000000")]
+df_new2020_9 = df_new.loc[(df_new['Job Created'] <= "2020-10-01 00:00:00.000000") & (df_new['Job Created'] >= "2020-09-01 00:00:00.000000")]
+df_new2020_10 = df_new.loc[(df_new['Job Created'] <= "2020-11-01 00:00:00.000000") & (df_new['Job Created'] >= "2020-10-01 00:00:00.000000")]
+df_new2020_11 = df_new.loc[(df_new['Job Created'] <= "2020-12-01 00:00:00.000000") & (df_new['Job Created'] >= "2020-11-01 00:00:00.000000")]
+df_new2020_12 = df_new.loc[(df_new['Job Created'] <= "2021-01-01 00:00:00.000000") & (df_new['Job Created'] >= "2020-12-01 00:00:00.000000")]
+
+df2020j = len(df_new2020_1)
+df2020f = len(df_new2020_2)
+df2020m = len(df_new2020_3)
+df2020a = len(df_new2020_4)
+df2020ma = len(df_new2020_5)
+df2020ju = len(df_new2020_6)
+df2020jy = len(df_new2020_7)
+df2020au = len(df_new2020_8)
+df2020s = len(df_new2020_9)
+df2020o = len(df_new2020_10)
+df2020n = len(df_new2020_11)
+df2020d = len(df_new2020_12)
+
+
+df_new2021 = df_new.loc[(df_new['Job Created'] <= "2022-01-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-01-01 00:00:00.000000")]
+
+df_new2021_1 = df_new.loc[(df_new['Job Created'] <= "2021-02-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-01-01 00:00:00.000000")]
+df_new2021_2 = df_new.loc[(df_new['Job Created'] <= "2021-03-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-02-01 00:00:00.000000")]
+df_new2021_3 = df_new.loc[(df_new['Job Created'] <= "2021-04-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-03-01 00:00:00.000000")]
+df_new2021_4 = df_new.loc[(df_new['Job Created'] <= "2021-05-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-04-01 00:00:00.000000")]
+df_new2021_5 = df_new.loc[(df_new['Job Created'] <= "2021-06-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-05-01 00:00:00.000000")]
+df_new2021_6 = df_new.loc[(df_new['Job Created'] <= "2021-07-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-06-01 00:00:00.000000")]
+df_new2021_7 = df_new.loc[(df_new['Job Created'] <= "2021-08-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-07-01 00:00:00.000000")]
+df_new2021_8 = df_new.loc[(df_new['Job Created'] <= "2021-09-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-08-01 00:00:00.000000")]
+df_new2021_9 = df_new.loc[(df_new['Job Created'] <= "2021-10-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-09-01 00:00:00.000000")]
+df_new2021_10 = df_new.loc[(df_new['Job Created'] <= "2021-11-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-10-01 00:00:00.000000")]
+df_new2021_11 = df_new.loc[(df_new['Job Created'] <= "2021-12-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-11-01 00:00:00.000000")]
+df_new2021_12 = df_new.loc[(df_new['Job Created'] <= "2022-01-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-12-01 00:00:00.000000")]
+
+df2021j = len(df_new2021_1)
+df2021f = len(df_new2021_2)
+df2021m = len(df_new2021_3)
+df2021a = len(df_new2021_4)
+df2021ma = len(df_new2021_5)
+df2021ju = len(df_new2021_6)
+df2021jy = len(df_new2021_7)
+df2021au = len(df_new2021_8)
+df2021s = len(df_new2021_9)
+df2021o = len(df_new2021_10)
+df2021n = len(df_new2021_11)
+df2021d = len(df_new2021_12)
+
+
+df_new2022 = df_new.loc[(df_new['Job Created'] <= "2023-01-01 00:00:00.000000") & (df_new['Job Created'] >= "2022-01-01 00:00:00.000000")]
+
+df_new2022_1 = df_new.loc[(df_new['Job Created'] <= "2022-02-01 00:00:00.000000") & (df_new['Job Created'] >= "2022-01-01 00:00:00.000000")]
+df_new2022_2 = df_new.loc[(df_new['Job Created'] <= "2022-03-01 00:00:00.000000") & (df_new['Job Created'] >= "2022-02-01 00:00:00.000000")]
+df_new2022_3 = df_new.loc[(df_new['Job Created'] <= "2022-04-01 00:00:00.000000") & (df_new['Job Created'] >= "2022-03-01 00:00:00.000000")]
+df_new2022_4 = df_new.loc[(df_new['Job Created'] <= "2022-05-01 00:00:00.000000") & (df_new['Job Created'] >= "2022-04-01 00:00:00.000000")]
+df_new2022_5 = df_new.loc[(df_new['Job Created'] <= "2022-06-01 00:00:00.000000") & (df_new['Job Created'] >= "2022-05-01 00:00:00.000000")]
+df_new2022_6 = df_new.loc[(df_new['Job Created'] <= "2022-07-01 00:00:00.000000") & (df_new['Job Created'] >= "2022-06-01 00:00:00.000000")]
+df_new2022_7 = df_new.loc[(df_new['Job Created'] <= "2022-08-01 00:00:00.000000") & (df_new['Job Created'] >= "2022-07-01 00:00:00.000000")]
+df_new2022_8 = df_new.loc[(df_new['Job Created'] <= "2022-09-01 00:00:00.000000") & (df_new['Job Created'] >= "2022-08-01 00:00:00.000000")]
+df_new2022_9 = df_new.loc[(df_new['Job Created'] <= "2022-10-01 00:00:00.000000") & (df_new['Job Created'] >= "2022-09-01 00:00:00.000000")]
+df_new2022_10 = df_new.loc[(df_new['Job Created'] <= "2022-11-01 00:00:00.000000") & (df_new['Job Created'] >= "2022-10-01 00:00:00.000000")]
+df_new2022_11 = df_new.loc[(df_new['Job Created'] <= "2022-12-01 00:00:00.000000") & (df_new['Job Created'] >= "2022-11-01 00:00:00.000000")]
+df_new2022_12 = df_new.loc[(df_new['Job Created'] <= "2023-01-01 00:00:00.000000") & (df_new['Job Created'] >= "2022-12-01 00:00:00.000000")]
+
+df2022j = len(df_new2022_1)
+df2022f = len(df_new2022_2)
+df2022m = len(df_new2022_3)
+df2022a = len(df_new2022_4)
+df2022ma = len(df_new2022_5)
+df2022ju = len(df_new2022_6)
+df2022jy = len(df_new2022_7)
+df2022au = len(df_new2022_8)
+df2022s = len(df_new2022_9)
+df2022o = len(df_new2022_10)
+df2022n = len(df_new2022_11)
+df2022d = len(df_new2022_12)
+
+
+#len for 2018 and 2019
+#2018 - 0, 0, 0, 1, 0, 3015, 3440, 5715, 6728, 4885, 4260, 3599
+#2019 - 5881, 5409, 3928, 4392, 4373, 2018, 3137, 3250, 2002, 1939, 1748, 1299
+
+
+#manual variables
+# df2018j = len(yearly_data[2018]['df_new_2018_01'])
+# df2018f = len(yearly_data[2018]['df_new_2018_02'])
+# df2018m = len(yearly_data[2018]['df_new_2018_03'])
+# df2018a = len(yearly_data[2018]['df_new_2018_04'])
+# df2018ma = len(yearly_data[2018]['df_new_2018_05'])
+# df2018ju = len(yearly_data[2018]['df_new_2018_06'])
+# df2018jy = len(yearly_data[2018]['df_new_2018_07'])
+# df2018au = len(yearly_data[2018]['df_new_2018_08'])
+# df2018s = len(yearly_data[2018]['df_new_2018_09'])
+# df2018o = len(yearly_data[2018]['df_new_2018_10'])
+# df2018n = len(yearly_data[2018]['df_new_2018_11'])
+# df2018d = len(yearly_data[2018]['df_new_2018_12'])
+
+# df2019j = len(yearly_data[2019]['df_new_2019_01'])
+# df2019f = len(yearly_data[2019]['df_new_2019_02'])
+# df2019m = len(yearly_data[2019]['df_new_2019_03'])
+# df2019a = len(yearly_data[2019]['df_new_2019_04'])
+# df2019ma = len(yearly_data[2019]['df_new_2019_05'])
+# df2019ju = len(yearly_data[2019]['df_new_2019_06'])
+# df2019jy = len(yearly_data[2019]['df_new_2019_07'])
+# df2019au = len(yearly_data[2019]['df_new_2019_08'])
+# df2019s = len(yearly_data[2019]['df_new_2019_09'])
+# df2019o = len(yearly_data[2019]['df_new_2019_10'])
+# df2019n = len(yearly_data[2019]['df_new_2019_11'])
+# df2019d = len(yearly_data[2019]['df_new_2019_12'])
+
+# df2020j = len(yearly_data[2020]['df_new_2020_01'])
+# df2020f = len(yearly_data[2020]['df_new_2020_02'])
+# df2020m = len(yearly_data[2020]['df_new_2020_03'])
+# df2020a = len(yearly_data[2020]['df_new_2020_04'])
+# df2020ma = len(yearly_data[2020]['df_new_2020_05'])
+# df2020ju = len(yearly_data[2020]['df_new_2020_06'])
+# df2020jy = len(yearly_data[2020]['df_new_2020_07'])
+# df2020au = len(yearly_data[2020]['df_new_2020_08'])
+# df2020s = len(yearly_data[2020]['df_new_2020_09'])
+# df2020o = len(yearly_data[2020]['df_new_2020_10'])
+# df2020n = len(yearly_data[2020]['df_new_2020_11'])
+# df2020d = len(yearly_data[2020]['df_new_2020_12'])
+
+# df2021j = len(yearly_data[2021]['df_new_2021_01'])
+# df2021f = len(yearly_data[2021]['df_new_2021_02'])
+# df2021m = len(yearly_data[2021]['df_new_2021_03'])
+# df2021a = len(yearly_data[2021]['df_new_2021_04'])
+# df2021ma = len(yearly_data[2021]['df_new_2021_05'])
+# df2021ju = len(yearly_data[2021]['df_new_2021_06'])
+# df2021jy = len(yearly_data[2021]['df_new_2021_07'])
+# df2021au = len(yearly_data[2021]['df_new_2021_08'])
+# df2021s = len(yearly_data[2021]['df_new_2021_09'])
+# df2021o = len(yearly_data[2021]['df_new_2021_10'])
+# df2021n = len(yearly_data[2021]['df_new_2021_11'])
+# df2021d = len(yearly_data[2021]['df_new_2021_12'])
+
+# df2022j = len(yearly_data[2022]['df_new_2022_01'])
+# df2022f = len(yearly_data[2022]['df_new_2022_02'])
+# df2022m = len(yearly_data[2022]['df_new_2022_03'])
+# df2022a = len(yearly_data[2022]['df_new_2022_04'])
+# df2022ma = len(yearly_data[2022]['df_new_2022_05'])
+# df2022ju = len(yearly_data[2022]['df_new_2022_06'])
+# df2022jy = len(yearly_data[2022]['df_new_2022_07'])
+# df2022au = len(yearly_data[2022]['df_new_2022_08'])
+# df2022s = len(yearly_data[2022]['df_new_2022_09'])
+# df2022o = len(yearly_data[2022]['df_new_2022_10'])
+# df2022n = len(yearly_data[2022]['df_new_2022_11'])
+# df2022d = len(yearly_data[2022]['df_new_2022_12'])
+
+
+#2018 loop only
+# df_new2018_dict = {}
+
+# start = "2018-01-01 00:00:00.000000"
+# end = "2019-01-01 00:00:00.000000"
+
+# for i in range(12):
+#     monthstart = f"2018-{i+1:02d}-01"
+#     monthend = f"2018-{i+2:02d}-01" if i < 11 else "2019-01-01"
+
+#     df_new2018_dict[f'df_new2018_{i+1}'] = df_new.loc[(df_new['Job Created'] >= monthstart) & (df_new['Job Created'] < monthend)]
+
+# # lengths = {key: len(df) for key, df in df_new2018_dict.items()}
+# df2018j = len(df_new2018_dict['df_new2018_1'])
+# df2018f = len(df_new2018_dict['df_new2018_2'])
+# df2018m = len(df_new2018_dict['df_new2018_3'])
+# df2018a = len(df_new2018_dict['df_new2018_4'])
+# df2018ma = len(df_new2018_dict['df_new2018_5'])
+# df2018ju = len(df_new2018_dict['df_new2018_6'])
+# df2018jy = len(df_new2018_dict['df_new2018_7'])
+# df2018au = len(df_new2018_dict['df_new2018_8'])
+# df2018s = len(df_new2018_dict['df_new2018_9'])
+# df2018o = len(df_new2018_dict['df_new2018_10'])
+# df2018n = len(df_new2018_dict['df_new2018_11'])
+# df2018d = len(df_new2018_dict['df_new2018_12'])
