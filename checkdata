@@ -213,3 +213,30 @@ df2022d = len(df_new2022_12)
 # df2022o = len(yearly_data[2022]['df_new_2022_10'])
 # df2022n = len(yearly_data[2022]['df_new_2022_11'])
 # df2022d = len(yearly_data[2022]['df_new_2022_12'])
+
+
+#2018 loop only
+# df_new2018_dict = {}
+
+# start = "2018-01-01 00:00:00.000000"
+# end = "2019-01-01 00:00:00.000000"
+
+# for i in range(12):
+#     monthstart = f"2018-{i+1:02d}-01"
+#     monthend = f"2018-{i+2:02d}-01" if i < 11 else "2019-01-01"
+
+#     df_new2018_dict[f'df_new2018_{i+1}'] = df_new.loc[(df_new['Job Created'] >= monthstart) & (df_new['Job Created'] < monthend)]
+
+# # lengths = {key: len(df) for key, df in df_new2018_dict.items()}
+# df2018j = len(df_new2018_dict['df_new2018_1'])
+# df2018f = len(df_new2018_dict['df_new2018_2'])
+# df2018m = len(df_new2018_dict['df_new2018_3'])
+# df2018a = len(df_new2018_dict['df_new2018_4'])
+# df2018ma = len(df_new2018_dict['df_new2018_5'])
+# df2018ju = len(df_new2018_dict['df_new2018_6'])
+# df2018jy = len(df_new2018_dict['df_new2018_7'])
+# df2018au = len(df_new2018_dict['df_new2018_8'])
+# df2018s = len(df_new2018_dict['df_new2018_9'])
+# df2018o = len(df_new2018_dict['df_new2018_10'])
+# df2018n = len(df_new2018_dict['df_new2018_11'])
+# df2018d = len(df_new2018_dict['df_new2018_12'])
