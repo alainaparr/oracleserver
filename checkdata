@@ -515,6 +515,131 @@ df202052 = len(df_new2020_52)
 print(df20201, df20202, df20203, df20204, df20205, df20206, df20207, df20208, df20209, df202010, df202011, df202012, df202013, df202014, df202015, df202016, df202017, df202018, df202019, df202020, df202021, df202022, df202023, df202024, df202025, df202026, df202027, df202028, df202029, df202030, df202031, df202032, df202033, df202034, df202035, df202036, df202037, df202038, df202039, df202040, df202041, df202042, df202043, df202044, df202045, df202046, df202047, df202048, df202049, df202050, df202051, df202052)
 
 
+df_new2021 = df_new.loc[(df_new['Job Created'] <= "2021-01-02 00:00:00.000000") & (df_new['Job Created'] >= "2020-01-01 00:00:00.000000")]
+
+df_new2021_1 = df_new.loc[(df_new['Job Created'] <= "2021-01-10 00:00:00.000000") & (df_new['Job Created'] >= "2021-01-01 00:00:00.000000")]
+df_new2021_2 = df_new.loc[(df_new['Job Created'] <= "2021-01-17 00:00:00.000000") & (df_new['Job Created'] >= "2021-01-10 00:00:00.000000")]
+df_new2021_3 = df_new.loc[(df_new['Job Created'] <= "2021-01-24 00:00:00.000000") & (df_new['Job Created'] >= "2021-01-17 00:00:00.000000")]
+df_new2021_4 = df_new.loc[(df_new['Job Created'] <= "2021-01-31 00:00:00.000000") & (df_new['Job Created'] >= "2021-01-24 00:00:00.000000")]
+df_new2021_5 = df_new.loc[(df_new['Job Created'] <= "2021-02-07 00:00:00.000000") & (df_new['Job Created'] >= "2021-01-31 00:00:00.000000")]
+
+df_new2021_6 = df_new.loc[(df_new['Job Created'] <= "2021-02-14 00:00:00.000000") & (df_new['Job Created'] >= "2021-02-07 00:00:00.000000")]
+df_new2021_7 = df_new.loc[(df_new['Job Created'] <= "2021-02-21 00:00:00.000000") & (df_new['Job Created'] >= "2021-02-14 00:00:00.000000")]
+df_new2021_8 = df_new.loc[(df_new['Job Created'] <= "2021-02-28 00:00:00.000000") & (df_new['Job Created'] >= "2021-02-21 00:00:00.000000")]
+df_new2021_9 = df_new.loc[(df_new['Job Created'] <= "2021-03-07 00:00:00.000000") & (df_new['Job Created'] >= "2021-02-28 00:00:00.000000")]
+
+df_new2021_10 = df_new.loc[(df_new['Job Created'] <= "2021-03-14 00:00:00.000000") & (df_new['Job Created'] >= "2021-03-07 00:00:00.000000")]
+df_new2021_11 = df_new.loc[(df_new['Job Created'] <= "2021-03-21 00:00:00.000000") & (df_new['Job Created'] >= "2021-03-14 00:00:00.000000")]
+df_new2021_12 = df_new.loc[(df_new['Job Created'] <= "2021-03-28 00:00:00.000000") & (df_new['Job Created'] >= "2021-03-21 00:00:00.000000")]
+df_new2021_13 = df_new.loc[(df_new['Job Created'] <= "2021-04-04 00:00:00.000000") & (df_new['Job Created'] >= "2021-03-28 00:00:00.000000")]
+
+df_new2021_14 = df_new.loc[(df_new['Job Created'] <= "2021-04-11 00:00:00.000000") & (df_new['Job Created'] >= "2021-04-04 00:00:00.000000")]
+df_new2021_15 = df_new.loc[(df_new['Job Created'] <= "2021-04-18 00:00:00.000000") & (df_new['Job Created'] >= "2021-04-11 00:00:00.000000")]
+df_new2021_16 = df_new.loc[(df_new['Job Created'] <= "2021-04-25 00:00:00.000000") & (df_new['Job Created'] >= "2021-04-18 00:00:00.000000")]
+df_new2021_17 = df_new.loc[(df_new['Job Created'] <= "2021-05-02 00:00:00.000000") & (df_new['Job Created'] >= "2021-04-25 00:00:00.000000")]
+
+df_new2021_18 = df_new.loc[(df_new['Job Created'] <= "2021-05-09 00:00:00.000000") & (df_new['Job Created'] >= "2021-05-02 00:00:00.000000")]
+df_new2021_19 = df_new.loc[(df_new['Job Created'] <= "2021-05-16 00:00:00.000000") & (df_new['Job Created'] >= "2021-05-09 00:00:00.000000")]
+df_new2021_20 = df_new.loc[(df_new['Job Created'] <= "2021-05-23 00:00:00.000000") & (df_new['Job Created'] >= "2021-05-16 00:00:00.000000")]
+df_new2021_21 = df_new.loc[(df_new['Job Created'] <= "2021-05-30 00:00:00.000000") & (df_new['Job Created'] >= "2021-05-23 00:00:00.000000")]
+df_new2021_22 = df_new.loc[(df_new['Job Created'] <= "2021-06-06 00:00:00.000000") & (df_new['Job Created'] >= "2021-05-30 00:00:00.000000")]
+
+df_new2021_23 = df_new.loc[(df_new['Job Created'] <= "2021-06-13 00:00:00.000000") & (df_new['Job Created'] >= "2021-06-06 00:00:00.000000")]
+df_new2021_24 = df_new.loc[(df_new['Job Created'] <= "2021-06-20 00:00:00.000000") & (df_new['Job Created'] >= "2021-06-13 00:00:00.000000")]
+df_new2021_25 = df_new.loc[(df_new['Job Created'] <= "2021-06-27 00:00:00.000000") & (df_new['Job Created'] >= "2021-06-20 00:00:00.000000")]
+df_new2021_26 = df_new.loc[(df_new['Job Created'] <= "2021-07-04 00:00:00.000000") & (df_new['Job Created'] >= "2021-06-27 00:00:00.000000")]
+
+df_new2021_27 = df_new.loc[(df_new['Job Created'] <= "2021-07-11 00:00:00.000000") & (df_new['Job Created'] >= "2021-07-04 00:00:00.000000")]
+df_new2021_28 = df_new.loc[(df_new['Job Created'] <= "2021-07-18 00:00:00.000000") & (df_new['Job Created'] >= "2021-07-11 00:00:00.000000")]
+df_new2021_29 = df_new.loc[(df_new['Job Created'] <= "2021-07-25 00:00:00.000000") & (df_new['Job Created'] >= "2021-07-18 00:00:00.000000")]
+df_new2021_30 = df_new.loc[(df_new['Job Created'] <= "2021-08-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-07-25 00:00:00.000000")]
+
+df_new2021_31 = df_new.loc[(df_new['Job Created'] <= "2021-08-08 00:00:00.000000") & (df_new['Job Created'] >= "2021-08-01 00:00:00.000000")]
+df_new2021_32 = df_new.loc[(df_new['Job Created'] <= "2021-08-15 00:00:00.000000") & (df_new['Job Created'] >= "2021-08-08 00:00:00.000000")]
+df_new2021_33 = df_new.loc[(df_new['Job Created'] <= "2021-08-22 00:00:00.000000") & (df_new['Job Created'] >= "2021-08-15 00:00:00.000000")]
+df_new2021_34 = df_new.loc[(df_new['Job Created'] <= "2021-08-29 00:00:00.000000") & (df_new['Job Created'] >= "2021-08-22 00:00:00.000000")]
+df_new2021_35 = df_new.loc[(df_new['Job Created'] <= "2021-09-05 00:00:00.000000") & (df_new['Job Created'] >= "2021-08-29 00:00:00.000000")]
+
+df_new2021_36 = df_new.loc[(df_new['Job Created'] <= "2021-09-12 00:00:00.000000") & (df_new['Job Created'] >= "2021-09-05 00:00:00.000000")]
+df_new2021_37 = df_new.loc[(df_new['Job Created'] <= "2021-09-19 00:00:00.000000") & (df_new['Job Created'] >= "2021-09-12 00:00:00.000000")]
+df_new2021_38 = df_new.loc[(df_new['Job Created'] <= "2021-09-26 00:00:00.000000") & (df_new['Job Created'] >= "2021-09-19 00:00:00.000000")]
+df_new2021_39 = df_new.loc[(df_new['Job Created'] <= "2021-10-03 00:00:00.000000") & (df_new['Job Created'] >= "2021-09-26 00:00:00.000000")]
+
+df_new2021_40 = df_new.loc[(df_new['Job Created'] <= "2021-10-10 00:00:00.000000") & (df_new['Job Created'] >= "2021-10-03 00:00:00.000000")]
+df_new2021_41 = df_new.loc[(df_new['Job Created'] <= "2021-10-17 00:00:00.000000") & (df_new['Job Created'] >= "2021-10-10 00:00:00.000000")]
+df_new2021_42 = df_new.loc[(df_new['Job Created'] <= "2021-10-24 00:00:00.000000") & (df_new['Job Created'] >= "2021-10-17 00:00:00.000000")]
+df_new2021_43 = df_new.loc[(df_new['Job Created'] <= "2021-10-31 00:00:00.000000") & (df_new['Job Created'] >= "2021-10-24 00:00:00.000000")]
+df_new2021_44 = df_new.loc[(df_new['Job Created'] <= "2021-11-07 00:00:00.000000") & (df_new['Job Created'] >= "2021-10-31 00:00:00.000000")]
+
+df_new2021_45 = df_new.loc[(df_new['Job Created'] <= "2021-11-14 00:00:00.000000") & (df_new['Job Created'] >= "2021-11-07 00:00:00.000000")]
+df_new2021_46 = df_new.loc[(df_new['Job Created'] <= "2021-11-21 00:00:00.000000") & (df_new['Job Created'] >= "2021-11-14 00:00:00.000000")]
+df_new2021_47 = df_new.loc[(df_new['Job Created'] <= "2021-11-28 00:00:00.000000") & (df_new['Job Created'] >= "2021-11-21 00:00:00.000000")]
+df_new2021_48 = df_new.loc[(df_new['Job Created'] <= "2021-12-05 00:00:00.000000") & (df_new['Job Created'] >= "2021-11-28 00:00:00.000000")]
+
+df_new2021_49 = df_new.loc[(df_new['Job Created'] <= "2021-12-12 00:00:00.000000") & (df_new['Job Created'] >= "2021-12-05 00:00:00.000000")]
+df_new2021_50 = df_new.loc[(df_new['Job Created'] <= "2021-12-19 00:00:00.000000") & (df_new['Job Created'] >= "2021-12-12 00:00:00.000000")]
+df_new2021_51 = df_new.loc[(df_new['Job Created'] <= "2021-12-26 00:00:00.000000") & (df_new['Job Created'] >= "2021-12-19 00:00:00.000000")]
+df_new2021_52 = df_new.loc[(df_new['Job Created'] <= "2022-01-01 00:00:00.000000") & (df_new['Job Created'] >= "2021-12-26 00:00:00.000000")]
+
+
+df202101 = len(df_new2021_1)
+df202102 = len(df_new2021_2)
+df202103 = len(df_new2021_3)
+df202104 = len(df_new2021_4)
+df202105 = len(df_new2021_5)
+df202106 = len(df_new2021_6)
+df202107 = len(df_new2021_7)
+df202108 = len(df_new2021_8)
+df202109 = len(df_new2021_9)
+df202110 = len(df_new2021_10)
+df202111 = len(df_new2021_11)
+df202112 = len(df_new2021_12)
+df202113 = len(df_new2021_13)
+df202114 = len(df_new2021_14)
+df202115 = len(df_new2021_15)
+df202116 = len(df_new2021_16)
+df202117 = len(df_new2021_17)
+df202118 = len(df_new2021_18)
+df202119 = len(df_new2021_19)
+df202120 = len(df_new2021_20)
+df202121 = len(df_new2021_21)
+df202122 = len(df_new2021_22)
+df202123 = len(df_new2021_23)
+df202124 = len(df_new2021_24)
+df202125 = len(df_new2021_25)
+df202126 = len(df_new2021_26)
+df202127 = len(df_new2021_27)
+df202128 = len(df_new2021_28)
+df202129 = len(df_new2021_29)
+df202130 = len(df_new2021_30)
+df202131 = len(df_new2021_31)
+df202132 = len(df_new2021_32)
+df202133 = len(df_new2021_33)
+df202134 = len(df_new2021_34)
+df202135 = len(df_new2021_35)
+df202136 = len(df_new2021_36)
+df202137 = len(df_new2021_37)
+df202138 = len(df_new2021_38)
+df202139 = len(df_new2021_39)
+df202140 = len(df_new2021_40)
+df202141 = len(df_new2021_41)
+df202142 = len(df_new2021_42)
+df202143 = len(df_new2021_43)
+df202144 = len(df_new2021_44)
+df202145 = len(df_new2021_45)
+df202146 = len(df_new2021_46)
+df202147 = len(df_new2021_47)
+df202148 = len(df_new2021_48)
+df202149 = len(df_new2021_49)
+df202150 = len(df_new2021_50)
+df202151 = len(df_new2021_51)
+df202152 = len(df_new2021_52)
+
+print(df202101, df202102, df202103, df202104, df202105, df202106, df202107, df202108, df202109, df202110, df202111, df202112, df202113, df202114, df202115, df202116, df202117, df202118, df202119, df202120, df202121, df202122, df202123, df202124, df202125, df202126, df202127, df202128, df202129, df202130, df202131, df202132, df202133, df202134, df202135, df202136, df202137, df202138, df202139, df202140, df202141, df202142, df202143, df202144, df202145, df202146, df202147, df202148, df202149, df202150, df202151, df202152)
+
+
+
+
 #        1     2     3   4   5     6   7     8    9    10  11    12
 #2019 : 5881 5409 3928 4392 4373 2018 3137 3250 2002 1939 1748 1299
 #2020 : 2242 1688 1769 1817 1013 1496 1748 1521 1273 1377 1146 1159        
