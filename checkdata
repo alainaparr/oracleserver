@@ -699,3 +699,39 @@ print(df202101, df202102, df202103, df202104, df202105, df202106, df202107, df20
 # 241  412    343   90    242
 # 12/6 12/13 12/20 12/27
 # 373  352    181    73              TOTAL : 18249
+
+
+
+import pandas as pd
+
+# Convert 'Job Created' column to datetime type if it's not already
+df_new['Job Created'] = pd.to_datetime(df_new['Job Created'])
+
+# Create an empty dictionary to store the lengths for each day
+daily_lengths = {}
+
+# Define the start and end dates
+start_date = pd.Timestamp("2021-01-04")
+end_date = pd.Timestamp("2022-01-01")
+
+# Iterate through each day
+current_date = start_date
+while current_date <= end_date:
+    # Define the start and end timestamps for the current day
+    start_timestamp = current_date
+    end_timestamp = current_date + pd.Timedelta(days=1)
+
+    # Filter the DataFrame for the current day
+    df_current_day = df_new.loc[(df_new['Job Created'] < end_timestamp) & (df_new['Job Created'] >= start_timestamp)]
+
+    # Store the length of the DataFrame for the current day in the dictionary
+    daily_lengths[current_date] = len(df_current_day)
+
+    # Move to the next day
+    current_date += pd.Timedelta(days=1)
+
+# Print the lengths for each day
+for date, length in daily_lengths.items():
+    print(f"{date}")
+    #print(f"{length}")
+    #print(f"For {date}: {length}")
